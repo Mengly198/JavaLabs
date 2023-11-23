@@ -4,7 +4,6 @@ public class recursion {
     System.out.println(reverseString("Hello"));    
     System.out.println(reverseString1("Hello"));
   }
-
   public static String reverseString1(String str) {
     StringBuilder reversed = new StringBuilder();
     for (int i = str.length() - 1; i >= 0; i--) {
